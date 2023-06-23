@@ -101,7 +101,7 @@ Test!  This is a test!  Testing!
 # Ex. 6 Slice It
 Create a Python function named `slice_it` that accepts an array `strings` and returns the first two letters of every
 word.
-
+def
 [String slicing](https://www.digitalocean.com/community/tutorials/how-to-index-and-slice-strings-in-python-3)
 
 Usage:
