@@ -1,7 +1,13 @@
+# def count_words(sentence):
+#     sentence = sentence.strip()
+#     sentence = sentence.replace("  ", " ")
+#     words = sentence.split()
+#     return len(words)
+
+# def count_words(sentence):
+#     words = sentence.split()
+#     return len(words)
+
 def count_words(sentence):
-    
-    return len(sentence.split(" "))    
-    
-sentence = input("Enter sentence: ")
-num_words = count_words(sentence)
-print(num_words)
+    return len(sentence.split())
+

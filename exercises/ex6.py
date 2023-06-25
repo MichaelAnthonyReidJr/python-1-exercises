@@ -1,8 +1,6 @@
 def slice_it(stringArray):
     sentence = ""
     for eachElement in stringArray:
-        sentence += stringArray.slice(2)
+        sentence += eachElement[0:2]
+    return sentence
 
-array = ["this", "is", "another", "test"]
-r = slice_it(array)
-print(r)
